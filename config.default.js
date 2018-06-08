@@ -35,7 +35,7 @@ var config = {
   cnzz_tracker_id: '',
 
   // mongodb 配置
-  db: 'mongodb://127.0.0.1:27017/myblog',
+  db: 'mongodb://127.0.0.1:27017/haoshouyi',
 
   // redis 配置，默认是本地
   redis_host: '127.0.0.1',
@@ -43,8 +43,8 @@ var config = {
   redis_db: 0,
   redis_password: '',
 
-  session_secret: 'haoshouyi8_secret', // 务必修改
-  auth_cookie_name: 'haoshouyi8',
+  session_secret: 'haoshouyi_secret', // 务必修改
+  auth_cookie_name: 'haoshouyi',
 
   // 程序运行的端口
   port: 80,
@@ -54,10 +54,10 @@ var config = {
 
   // RSS配置
   rss: {
-    title: 'CNode：Node.js专业中文社区',
-    link: 'http://cnodejs.org',
+    title: 'HaoShouYi',
+    link: 'http://haoshouyi8.com',
     language: 'zh-cn',
-    description: 'CNode：Node.js专业中文社区',
+    description: 'haoshouyi',
     //最多获取的RSS Item数量
     max_rss_items: 50
   },
@@ -70,7 +70,7 @@ var config = {
     port: 465,
     auth: {
       user: 'ponpon8@qq.com',
-      pass: 'z'
+      pass: 'avjxtjlemrcjbjia'
     },
     ignoreTLS: true,
   },
@@ -137,7 +137,7 @@ var config = {
 };
 
 if (process.env.NODE_ENV === 'test') {
-  config.db = 'mongodb://127.0.0.1/node_club_test';
+  config.db = 'mongodb://127.0.0.1:27017/haoshouyi_test';
 }
 
 module.exports = config;
