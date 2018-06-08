@@ -75,6 +75,13 @@ var config = {
     ignoreTLS: true,
   },
 
+  // 邮箱配置2
+  email: {
+        service: 'QQ',
+        user: 'ponpon8@qq.com',
+        pass: 'avjxtjlemrcjbjia',
+   },
+  
   //weibo app key
   weibo_key: 10000000,
   weibo_id: 'your_weibo_id',
