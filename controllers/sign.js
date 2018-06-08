@@ -277,7 +277,7 @@ exports.updatePass = function (req, res, next) {
       user.pass          = passhash;
       user.retrieve_key  = null;
       user.retrieve_time = null;
-      user.active        = true; // 用户激活
+      user.active        = false; // 用户激活
 
       user.save(function (err) {
         if (err) {
