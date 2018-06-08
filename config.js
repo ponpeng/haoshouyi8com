@@ -35,7 +35,7 @@ var config = {
   cnzz_tracker_id: '',
 
   // mongodb 配置
-  db: 'mongodb://127.0.0.1:27017/haoshouyi',
+  db: 'mongodb://ppkinnn:Zyj.123456@ds117540.mlab.com:17540/ppk',
 
   // redis 配置，默认是本地
   redis_host: '127.0.0.1',
